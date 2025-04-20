@@ -1,0 +1,14 @@
+.home-page-subParent{
+    display: block;
+}
+.mobile-showing{
+    display: none;
+}
+@media only screen and (max-width:767px) {
+    .home-page-subParent{
+        display: none !important;
+    }   
+    .mobile-showing{
+        display: block;
+    }
+}

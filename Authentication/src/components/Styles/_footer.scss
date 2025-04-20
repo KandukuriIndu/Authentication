@@ -1,0 +1,35 @@
+.footer-parent {
+    width: 90%;
+    margin: auto;
+        .row {
+            justify-content: space-between;
+            .created {
+                width: fit-content;
+                p {
+                    font-size: 14px;
+                    color: #99A1B7;
+                }
+            }
+
+            .support {
+                display: flex;
+                width: fit-content;
+                justify-content: space-between;
+                gap: 12px;
+                p {
+                    color: #99A1B7;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    @media only screen and (min-width:1200px) and (max-width:1600px) {
+        .footer-parent {
+            width: 78%;   
+        }
+    }
+    @media only screen and (min-width:1600px) and (max-width:3000px) {
+        .footer-parent {
+            width: 60%;   
+        }
+    }

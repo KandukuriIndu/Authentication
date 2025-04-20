@@ -1,0 +1,28 @@
+.home-heade-sub-parent {
+    width: 100% !important;
+    height: 80px;
+    align-items: center;
+    display: flex;
+    background-color: #2C294B;
+    .data-page {
+
+        width: 90%;
+        margin: auto;
+
+        .logo {
+            h2 {
+                color: #fff;
+                font-size: 30px;
+                text-align: center;
+            }
+        }
+
+    }
+}
+.mobile-parent{
+    height: 100%;
+    .bg-light{
+        height:100vh;
+        width: 100%;
+    }
+}

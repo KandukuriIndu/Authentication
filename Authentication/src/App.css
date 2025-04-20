@@ -1,0 +1,21 @@
+@import url("./Components/Styles/_Header.scss");
+@import url("./Components/Styles/_Cards.scss");
+@import url("./Components/Styles/_LunchCardsData.scss");
+@import url("./Components/Styles/_currentOrder.scss");
+@import url("./Components/Styles/_footer.scss");
+@import url("./Components/Styles/_home.scss");
+@import url("./Components/MobileData//_mobile.scss");
+
+.form-control{
+  height: 36px;
+}
+.form-label{
+  font-size: 16px;
+}
+body{
+  width: 100%;
+}
+.btn-primary{
+  background-color: #17C653;
+  border: 1px solid #17C653;
+}
